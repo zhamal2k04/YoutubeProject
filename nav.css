@@ -14,6 +14,7 @@
     flex-direction: row;
     align-items: center;
     gap: 24%;
+    justify-content: space-between;
 }
 
 .logo{
@@ -29,11 +30,13 @@
 #first-logo{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 #second-logo{
     width: 120px;
     height: 56px;
+    cursor: pointer;
 }
 
 .center-search{
@@ -53,4 +56,50 @@
     font-size: 18px;
     font-family: sans-serif;
     
+}
+
+.for-icon {
+    width: 64px;
+    height: 40px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid gray;
+    opacity: .9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: .3s all;
+}
+
+.for-icon>img {
+    width: 24px;
+    height: 24px;
+}
+
+.for-icon:hover {
+    background-color: #34343427;
+    cursor: pointer;
+    transition: .3 all ease;
+}
+
+.for-mic {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: .3s all;
+}
+
+.for-mic>img {
+    width: 24px;
+    height: 24px;
+}
+
+.for-mic:hover {
+    background-color: #34343445;
+    cursor: pointer;
+    transition: .3s all ease;
 }
